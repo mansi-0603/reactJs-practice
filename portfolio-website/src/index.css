@@ -1,0 +1,47 @@
+:root {
+  --color-accent: #7c5ce0;
+  --color-dark: linear-gradient(180deg, #12141f 0%, #252a45 100%);;
+  --color-light-bg: #f5f6fa;
+  --color-heading: #1a1a2e;
+  --color-text: #444;
+  --font-main: "Inter", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--color-heading);
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}

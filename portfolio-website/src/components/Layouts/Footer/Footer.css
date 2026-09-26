@@ -1,0 +1,17 @@
+.footer {
+  background: var(--color-dark);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-text {
+  color: white;
+}
+.footer-heart {
+  color: red;
+  vertical-align: middle;
+}
+.footer-heart:hover {
+  color: purple;
+}
